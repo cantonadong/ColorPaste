@@ -28,8 +28,11 @@ and clicked the app's own highlight button.
 ## Build
 
 ```
-go build -o bin/ColorPaste.exe ./cmd/colorpaste
+go build -ldflags="-H=windowsgui" -o bin/ColorPaste.exe ./cmd/colorpaste
 ```
+
+The `-H=windowsgui` flag builds it as a GUI subsystem binary so no console/log
+window appears on launch.
 
 Copy `assets/icon.ico` next to the built exe (as `assets/icon.ico`) so the app
 can load its window/tray icon.
