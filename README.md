@@ -1,5 +1,8 @@
 # ColorPaste
 
+<img width="1353" height="643" alt="image" src="https://github.com/user-attachments/assets/27e3e6b3-b2d1-429b-a844-9c5137bf54e5" />
+
+
 A lightweight Windows desktop tool that lets you highlight text in Word, Excel,
 and PowerPoint with any of 16 colors — without leaving your keyboard workflow.
 
