@@ -1,0 +1,5 @@
+/bin/
+*.exe
+*.syso
+log.txt
+test_empty_check.txt
